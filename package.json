@@ -1,0 +1,13 @@
+{
+  "name": "auction-truffle",
+  "version": "1.0.0",
+  "description": "Ethereum auction smart contract for Truffle and Ganache",
+  "scripts": {
+    "compile": "truffle.cmd compile",
+    "migrate": "truffle.cmd migrate --network development",
+    "test": "truffle.cmd test"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}
